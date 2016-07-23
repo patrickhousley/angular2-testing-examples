@@ -8,8 +8,6 @@ setBaseTestProviders(TEST_BROWSER_DYNAMIC_PLATFORM_PROVIDERS, TEST_BROWSER_DYNAM
 import { TestComponentBuilder, async, inject } from '@angular/core/testing';
 import { SimpleComponent } from './simple.component';
 
-
-
 describe('Simple Component', () => {
 
   describe('initialization', () => {
